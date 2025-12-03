@@ -154,7 +154,7 @@ src/
  └─ main/
      ├─ java/
      │   ├─ module-info.java
-     │   └─ com.yourgame.hillclimb/
+     │   └─ com.yourgame.hillclimbracing/
      │        ├─ app/
      │        │    ├─ GameApp.java          // main Application, scene switching, loads UI+canvas
      │        │    └─ GameLoop.java         // AnimationTimer, physics + scrolling + render
@@ -173,11 +173,11 @@ src/
      │        │    └─ Terrain.java          // terrain points, extend, prune, interpolate, translate
      │        │
      │        └─ ui/
-     │             ├─ GameUIController.java // controller for in-game UI (exit, pause, labels)
+     │             ├─ GameController.java // controller for in-game UI (exit, pause, labels)
      │             └─ MenuController.java   // controller for intro menu UI
      │
      └─ resources/
-         ├─ com/yourgame/hillclimb/ui/
+         ├─ com/yourgame/hillclimbracing
          │    ├─ Game.fxml                  // UI over canvas
          │    └─ Menu.fxml                  // intro screen
          │
